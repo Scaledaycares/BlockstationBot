@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chatbot Example</title>
+  <link rel="stylesheet" href="chatbot-widget.css">
+  </head>
+  <body>
+    <audio id="pop-sound" src="https://cdn.glitch.global/01a66850-f583-4369-9887-fcb7f2aecbf6/323743__reitanna__mouth-pop5.wav?v=1716411364280" preload="auto"></audio>
+    <div id="chat-widget">
+       <div class="chatbot-header">
+         <div class="chatbot-header-line">
+           <div>
+             <div class="chat-box-title-line">
+               <h4 class="chat-box-title">AI Assistant</h4>
+               <a href="https://blockstation.com/ny-subscribe" target="blank" class="invest-btn" id="investBtn">Invest Now</a>
+             </div>
+             <p id="intro">
+               Hi, I am a personal AI assistant, ask me anything you want to know about Blockstation!
+             </p>
+           </div>
+            <a href="" class="close-btn">
+              <img src="https://pub-files-live.illions.com/live/Blockstation/2288/3bdb0f23-caa3-4282-9d7f-27f940d0791b/6c931259-b710-4171-9ddd-672694c4642d.svg" />
+           </a>
+         </div>
+         
+      </div> 
+      <div id="chatbox"></div>
+      <form id="chat-form">
+        <input type="text" id="chat-input" value="Ask a question" />
+        <button type="submit" id="messagebtn"><img src="https://pub-files-live.illions.com/live/Blockstation/2288/ae20d128-a64c-45b1-89d6-f675238bdf25/e278a15d-7888-43f4-b853-de2a54e970c7.svg" alt="send message" id="send"></button>
+      </form>
+    </div>
+    
+   <script defer src="chatbot-widget.js"></script>
+
+  </body>
+</html>
